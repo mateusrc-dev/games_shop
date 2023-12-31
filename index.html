@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games Shop - A sua loja de games</title>
     <link rel="stylesheet" href="./main.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container"> <!-- recomendável criar uma 'div' quando desejar usar display flex para organizar elementos -->
-            <h1>Games Shop</h1>
+            <div class="logo-header">
+                <h1>Psi Mateus Carvalho</h1>
+                <img src="./images/pngegg.png" alt="logo">
+            </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="#about">Sobre a loja</a>
+                        <a href="#about">Sobre o profissional</a>
+                    </li>
+                    <li>
+                        <a href="#psychology">Sobre a psicologia</a>
                     </li>
                     <li>
                         <a href="#contact">Contato</a>
@@ -29,25 +36,40 @@
     <main>
         <section id="about">
             <div class="container">
-                <img class="store-front" src="./images/loja.jpg" alt="fachada da loja games shop">
+                <img class="store-front" src="./images/imagem-profissional.jpg" alt="imagem do profissional">
                 <div>
-                    <h2>Sobre a loja</h2>
+                    <h2>Sobre o profissional</h2>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae debitis, distinctio quidem, blanditiis numquam, 
-                        recusandae dicta ipsa provident aliquid fugiat dolores eaque pariatur facere natus laudantium. Voluptatum fugit 
-                        in ut!
+                        Sou especialista em terapia cognitivo comportamental e neuropsicologia. Meu objetivo é lhe ouvir e lhe ajudar a encontrar caminhos saudáveis para sua vida.
                     </p>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae debitis, distinctio quidem, blanditiis numquam, 
-                        recusandae dicta ipsa provident aliquid fugiat dolores eaque pariatur facere natus laudantium. Voluptatum fugit 
-                        in ut!
+                        Tenho 4 anos de experiência na área clínica atendendo adolescentes, adultos e idosos.
                     </p>
-                    <ul class="brands-list"> <!-- podemos usar lista ordenada e não ordenada para outros elementos além de textos -->
-                        <li><img src="./images/nintendo.png" alt="logo da nintendo"></li>
-                        <li><img src="./images/xbox.png" alt="logo do xbox"></li>
-                        <li><img src="./images/playstation.png" alt="logo da playstation"></li>
+                    <ul class="topics-list"> <!-- podemos usar lista ordenada e não ordenada para outros elementos além de textos -->
+                        <li><img src="./images/Daco_363582.png" alt="topic">Cuide da sua saúde mental</li>
+                        <li><img src="./images/Daco_363582.png" alt="topic">Procure um profissional com escuta ativa</li>
+                        <li><img src="./images/Daco_363582.png" alt="topic">Procure um profissional com arcabouço teórico cientifico</li>
                     </ul>
                 </div>
+            </div>
+        </section>
+        <section id="psychology">
+            <div class="container">
+                <div class="content">
+                    <h2>Sobre a psicologia</h2>
+                    <p>
+                        Psicologia é uma área cientifica que busca compreender o ser humano em todas as suas dimensões (sociais, psicológicas, espirituais,  biológicas) e se preocupa com as questões éticas para não ferir de forma alguma o ser humano.
+                    </p>
+                    <p>
+                        Cada vez mais se torna necessário em uma sociedade cada vez mais adoecida.
+                    </p>
+                    <ul class="topics-list"> <!-- podemos usar lista ordenada e não ordenada para outros elementos além de textos -->
+                        <li><img src="./images/Daco_363582.png" alt="topic">Ciência que se preocupa com o ser humano</li>
+                        <li><img src="./images/Daco_363582.png" alt="topic">Ciência ética</li>
+                        <li><img src="./images/Daco_363582.png" alt="topic">Ciência que se preocupa em compreender o ser humano como um todo</li>
+                    </ul>
+                </div>
+                <img class="psychology-image" src="./images/psychology-image.png" alt="imagem sobre psicologia">
             </div>
         </section>
         <section id="contact">
@@ -68,17 +90,25 @@
                         <h3>Nos acompanhe</h3>
                         <ul class="social-links">
                             <li>
-                                <a href="#" title="Siga-nos no Instagram">
+                                <a href="https://www.instagram.com/psimateuscarvalho/" title="Siga-me no Instagram" target="_blank">
                                     <img src="./images/instagram.png" alt="logo do instagram">
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Siga-nos no Facebook">
-                                    <img src="./images/facebook.png" alt="logo do facebook">
+                                <a 
+                                    href="https://api.whatsapp.com/send?phone=5586999654617&text=Ol%C3%A1,%20gostaria%20de%20marcar%20uma%20consulta%20com%20o%20Dr.%20Mateus%20Carvalho" 
+                                    title="Contato do Whatsapp"
+                                    target="_blank"
+                                >
+                                    <img src="./images/whatsapp.png" alt="logo do whatsapp">
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Visite nosso canal no YouTube">
+                                <a 
+                                    href="https://www.youtube.com/channel/UCu90Bq4ehUin5sj8jRga-oQ" 
+                                    title="Visite meu canal no YouTube"
+                                    target="_blank"
+                                >
                                     <img src="./images/youtube.png" alt="logo do youtube">
                                 </a>
                             </li>
@@ -86,20 +116,35 @@
                     </div>
                     <div>
                         <h3>Venha até nós</h3>
-                        <p>
-                            Rua JavaScript nº 124, Vila HTML - Teresina - Piauí
-                        </p>
+                        <ul class="location">
+                            <li>
+                                <a 
+                                    href="https://www.google.com.br/maps/place/Cl%C3%ADnica+Cuidarte/@-5.0617392,-42.7863886,17z/data=!4m16!1m9!3m8!1s0x78e3a2a4596ad99:0xa8a973e313a0c5b3!2sCl%C3%ADnica+Cuidarte!8m2!3d-5.0617392!4d-42.7838137!9m1!1b1!16s%2Fg%2F11bbwxcrwg!3m5!1s0x78e3a2a4596ad99:0xa8a973e313a0c5b3!8m2!3d-5.0617392!4d-42.7838137!16s%2Fg%2F11bbwxcrwg?entry=ttu"
+                                    target="_blank"
+                                    >
+                                    Clínica Cuidarte - Av. Homero Castelo Branco, 2676 - Horto, Teresina - PI, 64052-445
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="https://www.google.com.br/maps/place/Terap%C3%AAutica/@-5.0706446,-42.7896425,17z/data=!4m10!1m2!2m1!1sCl%C3%ADnica+terapeutica!3m6!1s0x78e398b1a3533f5:0x96f3770854eb526a!8m2!3d-5.0706446!4d-42.7848789!15sChRDbMOtbmljYSB0ZXJhcGV1dGljYZIBFG1lbnRhbF9oZWFsdGhfY2xpbmlj4AEA!16s%2Fg%2F11b6dqyt8j?entry=ttu"
+                                    target="_blank"
+                                    >
+                                    Clínica Terapêutica - R. Honório Parentes, 1149 - Jóquei, Teresina - PI, 64048-360
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="container">
-                <p>
-                    &copy; Games Shop - Todos os direitos reservados - 2023
-                </p>
-            </div>
-        </footer>
     </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Psi Mateus Carvalho - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -150,6 +150,10 @@ main section .store-front {
     text-decoration: none;
 }
 
+.social-links li a:hover {
+    filter: brightness(0.8);
+}
+
 #contact .container {
     display: block;
 }
